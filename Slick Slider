@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <style>
+        * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.item {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #0000002b;
+  background-color: #80808038;
+  box-shadow: 0px 0px 10px 0px #00000070;
+  padding-bottom: 10px;
+}
+
+.item.silver {
+  background-color: silver;
+}
+
+.item.red {
+  background-color: red;
+}
+
+.item.green {
+  background-color: green;
+}
+
+.item.blue {
+  background-color: blue;
+}
+
+.item.yellow {
+  background-color: yellow;
+}
+
+.item.purple {
+  background-color: purple;
+}
+
+.item.brown {
+  background-color: brown;
+}
+
+.item.black {
+  background-color: black;
+}
+
+.carousel {
+  margin-top: 100px;
+}
+
+.carousel .slick-slide {
+  filter: blur(2px);
+  transition: ease .3s;
+  transform: scale(.8, .8);
+}
+
+.carousel .slick-slide.slick-center {
+  filter: none;
+  transform: scale(1, 1);
+}
+
+.arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999999;
+    position: relative;
+}
+
+.arrows i {
+  margin: 10px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.main-slider-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-slider-box .content-box {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-slider-box .content-box h2 {
+    font-size: 30px;
+}
+
+
+.main-slider-box .content-box img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-slider-box .content-box p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.testi-slider ul.slick-dots { position: absolute; bottom: -70px !important; }
+    </style>
+</head>
+<body>
+
+    <div class="carousel testi-slider">
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+
+            <div class="main-slider-box">
+                <div class="content-box">
+                    <h2>Lorem Lorem</h2>
+                    <img src="https://th.bing.com/th/id/OIP.lZtSgTf7sH0aQ2n62SqSlwHaBV?w=1000&h=180&rs=1&pid=ImgDetMain" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veritatis repellat rerum incidunt mollitia eligendi, ab voluptates nihil dicta tempore quae unde maxime, amet, harum repellendus quasi accusamus et sunt!</p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+      
+      <div class="arrows">
+        <i class="fas fa-chevron-left" id="arrow-prev"></i>
+        <i class="fas fa-chevron-right" id="arrow-next"></i>
+      </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
+
+    <script>
+        
+$('.carousel').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  centerMode: true,
+  dots: true,
+  prevArrow: $('.fa-chevron-left'),
+  nextArrow: $('.fa-chevron-right'),
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+
+        ]
+})
+
+    </script>
+    
+</body>
+</html>
